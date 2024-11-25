@@ -317,10 +317,12 @@ div.result-view{
 
 @media (width < 1000px) {
     .home{
-        /* background-image: url(./assets/images/pattern-background-tablet-dark.svg); */
         min-height: 100vh;
         height: auto;
-        /* align-items: center; */
+    }
+
+    .quiz-intro > p:nth-child(1){
+        margin-top: 3rem;
     }
 
     .quiz-intro > p:nth-child(3){
